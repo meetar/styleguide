@@ -70,6 +70,11 @@ h5 {
   // color: $mz-mediumgray;
 }
 
+p {
+  font-family: $mz-paragraph-font;
+  font-weight: $regular-font-weight;
+}
+
 // link color was missing from style guide
 // This is arbiturary one that Hanbyul put
 a {
