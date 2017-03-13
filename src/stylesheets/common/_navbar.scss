@@ -78,7 +78,7 @@ body {
   border: 0; // Overwrite 1px border width
 }
 .navbar-nav > li > a {
-  line-height: 26px; // Make link fit the height of the navbar
+  line-height: 30px; // Make link fit the height of the navbar
   font-size: $body-small;
 }
 
@@ -93,7 +93,7 @@ body {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  padding-bottom: 10px;
+  padding-bottom: 6px;
   border-bottom: 5px solid $navbar-active-link-color;
 }
 
@@ -165,7 +165,7 @@ body {
   min-width: 118px;
 }
 .navbar-nav > li > a#sign-up > span {
-  line-height: 26px; //cheap way to fix render problem
+  line-height: 30px; //cheap way to fix render problem
 }
 
 .navbar-nav > li > a > #login-profile {
