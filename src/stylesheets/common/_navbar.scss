@@ -101,7 +101,7 @@ body {
 // there is some more involved CSS overriding here
 .navbar-brand {
   // Match container edge
-  padding: 8px 30px 8px 15px;
+  padding: 5px 30px 5px 15px;
 
   // Branding size at tablet/desktop screen
   @media (min-width: $screen-sm) {
@@ -121,12 +121,12 @@ body {
 // flicker that would have been seen if this was a
 // JavaScript-based show/hide of the image element
 .mapzen-logo {
-  width: 130px;
-  height: 40px;
+  width: 150px;
+  height: 46px;
   background-image: url('https://mapzen.com/common/styleguide/images/mapzen-logo-stacked.png');
   background-repeat: no-repeat;
-  background-position: 0 -40px;
-  background-size: 130px;
+  background-position: 0 -46px;
+  background-size: 150px;
 
   &:hover {    
     background-position: 0 0;   
@@ -134,9 +134,9 @@ body {
 
   // Set the size and position of the logo at mobile screen
   @media (max-width: $screen-xs-max) {
-    height: 31px;
+    height: 37px;
     background-position: 0 0;
-    background-size: 110px;
+    background-size: 120px;
   }
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
